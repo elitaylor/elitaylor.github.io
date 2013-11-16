@@ -20,5 +20,5 @@ Check out the [google search][google] cuz it's cool
 
 [google]:    http://google.com
 
-<img src="http://farm4.staticflickr.com/3763/10802994273_cb67fdfdc3_o.jpg" class="img-responsive">
+<img src="http://www.flickr.com/photos/101575138@N05/10878502915/" class="img-responsive">
 
