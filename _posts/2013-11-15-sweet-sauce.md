@@ -6,15 +6,17 @@ date:   2013-11-15
 categories: sweetsauce test
 ---
 
-Check out teh codez
+Check out my teh codez
 
 {% highlight ruby %}
-def you_are_cool(name)
-  puts "You are cool, #{name}"
+def im_cool(name)
+  puts "Hi, #{name}"
 end
-you_are_cool('Eli')
-#=> prints 'You are cool, Eli' to STDOUT.
+print_hi('Eli')
+#=> prints 'Hi, Eli' to STDOUT.
 {% endhighlight %}
+
+<!--more-->
 
 Check out the [google search][google] cuz it's cool
 

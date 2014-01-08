@@ -1,5 +1,14 @@
-.container {
-  padding-top: 10px;
+/*.container {
+  padding-top: 90px;
+}
+*/
+
+.recentposts {
+  padding-top: 50px;
+}
+
+.blog-img {
+  height: 236px;
 }
 
 @media (min-width: 1200px) {
@@ -23,3 +32,19 @@
   -moz-box-shadow: 0 8px 6px -6px black;
   box-shadow: 0 8px 6px -6px black; }
 
+.navbar-toggle {
+  border: none;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+background-color: transparent;
+}
+
+.navbar-default .navbar-brand {
+  padding-top: 12px;
+  font-size: 25px;
+}
+
+.pull-left i.fa {
+  padding-right: 10px;
+}

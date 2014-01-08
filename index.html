@@ -3,14 +3,58 @@ layout: default
 title: Eli Taylor's Blog
 ---
 
-<div id="home">
+    {% include slider.html %}
+    <img class="img-responsive visible-xs" src="http://farm6.staticflickr.com/5511/9551622873_ece6498b84_b.jpg">
 
-<img alt="Lips." class="img-responsive one-edge-shadow center-img" height="500" src="http://farm6.staticflickr.com/5511/9551622873_ece6498b84_b.jpg" width="500">
-
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+<div class="container">
+  <div class="row recentposts">
+    <div class="col-sm-12">
+      <div class="showroom-controls">
+        <div class="links">Recent Tech Posts <i class="verticalSeparator"></i> <a href="/tech-blog.html">All Tech Posts</a></div>
+      </div>
+      <div class="row">
+        {% for post in site.categories['tech'] limit:3 %}
+          <div class="showroom-item blog-item col-sm-4">
+            <div class="image">
+              <img src="{{ post.feat-img }}"  class="img-responsive blog-img center-img" alt="Blog Thumbnail">
+              <a href ="{{ post.url }}" class="overlay">
+              <i class="glyphicons search"><i></i></i>
+              </a>
+            </div>
+            <div class="content">
+              <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+              <span class="meta">{{ post.date | date_to_string }}</span>
+              <span class="preview">{{ post.excerpt }}</span>
+              <a class="more" href="{{ post.url }}">View more</a>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="row recentposts">
+    <div class="col-sm-12">
+      <div class="showroom-controls">
+        <div class="links">Recent Leadership Posts <i class="verticalSeparator"></i> <a href="/leadership-blog.html">All Leadership Posts</a></div>
+      </div>
+      <div class="row">
+        {% for post in site.categories['leadership'] limit:3 %}
+          <div class="showroom-item blog-item col-sm-4">
+            <div class="image">
+                <img src="{{ post.feat-img }}"  class="img-responsive blog-img center-img" alt="Blog Thumbnail">
+                <a href ="{{ post.url }}" class="overlay">
+                <i class="glyphicons search"><i></i></i>
+                </a>
+            </div>
+            <div class="content">
+              <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+              <span class="meta">{{ post.date | date_to_string }}</span>
+              <span class="preview">{{ post.excerpt }}</span>
+              <a class="more" href="{{ post.url }}">View more</a>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
 </div>
