@@ -1,0 +1,54 @@
+---
+layout: default
+title: Eli Taylor's Devops Blog
+---
+
+        <div class="widewrapper pagetitle">
+            <div class="container">
+                    <h1>Tech Blog</h1>
+            </div>
+        </div>
+    </header>
+
+    <div class="container" role="main">
+        <div class="row content">
+
+            {% for post in site.categories['tech'] limit:3 %}
+            <div class="col-sm-12">
+                <section id="blog-posts">
+                    <article class="blog-post">
+                        <header>
+                        <h2 class="title"><a href="blog-inner.html">{{ post.title }}</a></h2>
+                            <div class="comment-count">
+                              <a href="{{ post.url }}#comments">
+                                    <span>4 Comments</span>
+                                    <i class="glyphicons conversation"><i></i></i>
+                                </a>
+                            </div>    
+                        </header>
+
+                        <img class="leadimage img-responsive center-img" src="{{ post.feat-img }}" alt="Blog Picture">
+
+                        <p>
+                        {{ post.excerpt }}
+                        </p>
+
+
+                        <div class="meta">
+                        Posted By Eli On {{ post.date | date_to_string }}
+                      </div>
+
+                      <a href="{{ post.url }}" class="btn btn-grove-one btn-bold readmore">Read more</a>
+
+                        <hr>
+                    </article>
+             {% endfor %}
+
+                </section>
+            </div>
+
+
+        </div>
+    </div>
+
+
