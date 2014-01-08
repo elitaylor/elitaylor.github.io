@@ -48,3 +48,9 @@ background-color: transparent;
 .pull-left i.fa {
   padding-right: 10px;
 }
+
+/* About page */
+
+.about-img {
+  margin-bottom: 30px;
+}
