@@ -2,6 +2,9 @@
 layout: post
 categories: leadership
 title:  "First Post"
+author:  "Eli"
+author-site:  http://elitaylor.github.io
+intro:  "This is the first among many blerg posts"
 comments:  true
 feat-img: http://farm4.staticflickr.com/3763/10802994273_cb67fdfdc3_o.jpg
 date:   2013-11-15 12:51:19
@@ -26,5 +29,3 @@ Check out the [Jekyll docs][jekyll] for more info on how to get the most out of 
 
 [jekyll-gh]: https://github.com/mojombo/jekyll
 [jekyll]:    http://jekyllrb.com
-
-<img src="http://farm4.staticflickr.com/3763/10802994273_cb67fdfdc3_o.jpg" class="img-responsive">

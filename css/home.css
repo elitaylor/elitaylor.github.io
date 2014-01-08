@@ -1,7 +1,12 @@
-/*.container {
-  padding-top: 90px;
+
+img {
+  margin-left: auto;
+  margin-right: auto;
 }
-*/
+
+.feat-img {
+  margin-bottom: 30px;
+}
 
 .recentposts {
   padding-top: 50px;
@@ -47,10 +52,4 @@ background-color: transparent;
 
 .pull-left i.fa {
   padding-right: 10px;
-}
-
-/* About page */
-
-.about-img {
-  margin-bottom: 30px;
 }

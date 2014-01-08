@@ -18,10 +18,10 @@ title: Eli Taylor's Leadership Blog
                 <section id="blog-posts">
                     <article class="blog-post">
                         <header>
-                        <h2 class="title"><a href="blog-inner.html">{{ post.title }}</a></h2>
+                        <h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
                             <div class="comment-count">
-                              <a href="{{ post.url }}#comments">
-                                    <span>4 Comments</span>
+                              <a href="{{ post.url }}/#disqus_thread">
+                                    <span></span>
                                     <i class="glyphicons conversation"><i></i></i>
                                 </a>
                             </div>
@@ -35,7 +35,7 @@ title: Eli Taylor's Leadership Blog
 
 
                         <div class="meta">
-                        Posted By Eli On {{ post.date | date_to_string }}
+                          Posted By {{ post.author }} On {{ post.date | date_to_string }}
                       </div>
 
                       <a href="{{ post.url }}" class="btn btn-grove-one btn-bold readmore">Read more</a>
