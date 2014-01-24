@@ -8,47 +8,26 @@ title: Eli Taylor's Devops Blog
                     <h1>Tech Blog</h1>
             </div>
         </div>
-    </header>
 
     <div class="container" role="main">
-        <div class="row content">
-
-            {% for post in site.categories['tech'] limit:3 %}
-            <div class="col-sm-12">
+          {% assign loopindex = 0 %}
+          {% for post in site.categories['tech'] %}
+            {% assign loopindex = loopindex | plus: 1 %}
+            {% assign rowfinder = loopindex | modulo: 3 %}
+            {% if rowfinder == 1 %}
+              <div class="row content">
                 <section id="blog-posts">
-                    <article class="blog-post">
-                        <header>
-                        <h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-                            <div class="comment-count">
-                              <a href="{{ post.url }}/#disqus_thread">
-                                    <span>Comments</span>
-                                    <i class="glyphicons conversation"><i></i></i>
-                                </a>
-                            </div>
-                        </header>
+                  {% include post-columns.html %}
 
-                        <img class="leadimage img-responsive center-img" src="{{ post.feat-img }}" alt="Blog Picture">
-
-                        <p>
-                        {{ post.excerpt }}
-                        </p>
-
-
-                        <div class="meta">
-                          Posted By <a href="{{ post.author-site }}">{{ post.author }}</a> On {{ post.date | date_to_string }}
-                      </div>
-
-                      <a href="{{ post.url }}" class="btn btn-grove-one btn-bold readmore">Read more</a>
-
-                        <hr>
-                    </article>
-             {% endfor %}
-
+            {% elsif rowfinder == 0 %}
+                  {% include post-columns.html %}
                 </section>
-            </div>
+              </div>
 
-
-        </div>
+            {% else %}
+              {% include post-columns.html %}
+            {% endif %}
+          {% endfor %}
     </div>
 
     <script type="text/javascript">

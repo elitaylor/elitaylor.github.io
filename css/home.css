@@ -16,6 +16,10 @@ img {
   height: 236px;
 }
 
+.blog-post header {
+  margin-bottom: 0px;
+}
+
 @media (min-width: 1200px) {
   .container {
   width: 900px;
@@ -53,3 +57,4 @@ background-color: transparent;
 .pull-left i.fa {
   padding-right: 10px;
 }
+

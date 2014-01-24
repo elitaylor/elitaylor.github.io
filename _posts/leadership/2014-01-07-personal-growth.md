@@ -11,9 +11,10 @@ date:   2014-01-08
 ---
 
 Do you remember the last time you were on an airplane? Do you remember the in-flight demonstrations of how to use the oxygen mask in case of an emergency?
-They actually instruct you to put your oxygen mask on before you help little children, that way you are
+They actually instruct you <!--more--> to put your oxygen mask on before you help little children, that way you are
 coherent enough to take care of them. Personal growth is like that, you need to continue to grow and change
 in order to best server others.
+
 
 ### I think Benjamin Franklin said it best:
 > *“When you are finished changing, you're finished.”*
@@ -22,8 +23,6 @@ Maybe you've been confronted with the absurd idea that personal growth is selfis
 "We should be others oriented, so if you focus on personal growth then you run the risk of becoming selfish...and that's bad."
 
 Here's a few reason why I believe this line of thinking is **#wack.**
-
-<!--more-->
 
 ## 1.) You can't give what you don't have:
 In order to be selfless you must be giving, but I would like to know exactly how you plan to be giving when you
@@ -44,7 +43,7 @@ into your wallet and pull out a green piece of paper and say: "Certainly! Here y
 
 >*"You show me a person that is growing personally, and I will show you a person who serves others."*
 
-What have you done here? By serving your employer you have been rewarded with green pieces of paper(money!) that serves as
+What have you done here? By serving your employer you have been rewarded with green pieces of paper(money!) that serve as
 proof that you have indeed been useful to another human being(in this case your employer).
 
 Look at you! Serving people and making money! You go girl!...or guy!
@@ -69,8 +68,22 @@ This verse has brought me a lot of comfort over the years:
 # In John 16:33 Jesus says:
 > I have told you all this so that you may have *peace* in me. Here on earth you *will* have many trials and sorrows. **But take heart, because I have overcome the world.**”
 
-So be selfish this year. Make sure that you continue to change and grow personally. Grow so that you can become a blessing, not just so that you can
-aquire things for yourself. If your motivation for change and growth comes from outside you, you will be more motivated to grow. You'll always work
-harder if you are doing it for someone else. If you continue growing, you will find yourself being very helpful to others.
+Let me be clear, I am most certainly not saying that it's okay to be selfish. What I'm saying, is that you should seek to grow the gifts that God gave you
+so that you can become a blessing, not just so that you can acquire things for yourself. If you are doing all of this for yourself, then please consider the
+following passage:
+
+# Proverbs 23:4-5
+> 4 Don’t wear yourself out trying to get rich.
+    Be wise enough to know when to quit.
+  5 In the blink of an eye wealth disappears,
+    for it will sprout wings
+    and fly away like an eagle.
+
+Things on this earth won't last, and even if they did, you will not. It is very wise to find your purpose in something that will last, if you don't then I think the question we should be asking is:
+"Why I am I doing this?" or "What's the purpose of all of my hard work?"
+
+If your motivation for change and growth comes from outside you,
+you will be more motivated to grow. You'll always work harder for someone else, and purpose that is bigger than yourself. So despite my controversial title for this post,
+my intent is to actually motivate you to grow personally **SO THAT YOU CAN** become a blessing to others. This type of personal growth is not selfish.
 
 [tsp]: http://www.amazon.com/Thou-Shall-Prosper-Commandments-Making/dp/0470485884/ref=sr_1_1?ie=UTF8&qid=1389213209&sr=8-1&keywords=thou+shall+prosper
