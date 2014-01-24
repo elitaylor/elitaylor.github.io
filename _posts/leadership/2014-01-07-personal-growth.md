@@ -66,7 +66,7 @@ personally, you won't be of much help to other people.
 This verse has brought me a lot of comfort over the years:
 
 # In John 16:33 Jesus says:
-> I have told you all this so that you may have *peace* in me. Here on earth you *will* have many trials and sorrows. **But take heart, because I have overcome the world.**”
+> "I have told you all this so that you may have *peace* in me. Here on earth you *will* have many trials and sorrows. **But take heart, because I have overcome the world.**”
 
 Let me be clear, I am most certainly not saying that it's okay to be selfish. What I'm saying, is that you should seek to grow the gifts that God gave you
 so that you can become a blessing, not just so that you can acquire things for yourself. If you are doing all of this for yourself, then please consider the
