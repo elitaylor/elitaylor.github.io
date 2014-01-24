@@ -48,7 +48,7 @@ proof that you have indeed been useful to another human being(in this case your 
 
 Look at you! Serving people and making money! You go girl!...or guy!
 
-## 3.) If you don't impove yourself, then you don't have much to offer others.
+## 3.) If you don't improve yourself, then you don't have much to offer others.
 This life is rough sometimes! The trials that we all face have the power to either break us down or cause us to grow. It's all about how you
 choose to respond to it. If you don't heal and grow past your trials, how do intend to help others grow past their trials?
 
